@@ -612,3 +612,4 @@ Yes, we have to include some legalese down here. Read it larger on our legal pag
 Savings are estimated by comparing the highest and lowest price for a shopper in a given health class. For example: for a 30-year old non-smoker male in South Carolina with excellent health and a preferred plus health class, comparing quotes for a $500,000, 20-year term life policy, the price difference between the lowest and highest quotes is 60%. For that same shopper in New York, the price difference is 40%. Rates are subject to change and are valid as of 2/17/17.
 
 Copyright PolicyGenius (C) 2014-2017
+  *[*]: required
