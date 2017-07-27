@@ -11,7 +11,7 @@ h = html2text.HTML2Text()
 h.body_width = 0
 
 insurance_type = ["life-insurance", "health-insurance" ,"renters-insurance", "pet-insurance", "long-term-disability-insurance"]
-extensions = ["learn", "guide", "guide/faqs", "define"]
+extensions = ["learn", "guide", "guide/faqs", "define", "learn/states", "companies"]
 for ins in insurance_type:
     for ext in extensions:
         final_url = "https://www.policygenius.com/" + ins + "/" + ext + "/"
@@ -57,14 +57,3 @@ for ins in insurance_type:
                             f=open('long-term-disability-insurance/' + links + '.md', 'w')
                             f.write(page)
                             f.close()
-
-
-# e = 'echo `slimrb -c thanks.html.slim`'
-# html_output = subprocess.Popen(e, shell=True, stdout=subprocess.PIPE)
-# output = html_output.stdout.read().decode('ascii')
-# page = h.handle(page.text)
-# print (page)
-
-# ~/Users/jathomas/Desktop/PG/policygenius/app/views/pages/
-
-# print(tree)
